@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>media</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+           
+
+        }
+        .coitainer{
+          width: 100vw;
+          height: 100vh;
+          background-color: rgb(243, 240, 240);
+          background-image: url(mb.png);
+          background-size: cover;
+          padding: 10px;
+          display: flex;
+          justify-content: space-evenly;
+          gap: 20px;
+          overflow: scroll;
+         
+          
+          
+
+        }
+        .main{
+            width: 300px;
+            min-height: 400px;
+            max-height: 400px;
+            background-color: rgb(8, 8, 8);
+            background-image: url(tea.png);
+            background-size: cover;
+           border-radius: 10px;
+           box-shadow: 0 0 5px;
+           padding: 10px;
+ 
+          
+         
+
+        }
+        
+        .heading{
+            color: rgb(10, 10, 10);
+            font-size: 25px;
+           text-shadow: 0 0 20px rgb(24, 8, 8);
+           display: flex;
+           
+        }
+        .sub-heading{
+          color: rgb(18, 17, 17);
+          text-shadow: 0 0 10px black;
+          margin: 5px;
+        }
+         button{
+          background-color: rgb(5, 113, 23);
+          color: white;
+          padding: 12px;
+          border-radius: 15px;
+          cursor: pointer;
+          margin-top: 15px;
+          box-shadow: 0 0 10px;
+         }
+        @media(max-width:1000px)
+          {
+
+          .coitainer{
+            flex-direction: column;
+            align-items: center;
+           
+          }
+        
+        
+
+        
+        }
+        @media(max-width:800px)
+      {
+        .coitainer{
+          flex-direction: row;
+          align-items: center;
+
+    }
+    .heading{
+      font-size: 15px;
+    }
+    button{
+      padding: 7px;
+      font-size: 9px;
+    }
+}
+.Oats{
+            width: 300px;
+            min-height: 400px;
+            max-height: 400px;
+            background-color: rgb(8, 8, 8);
+            background-image: url(oats.png);
+            background-size: cover;
+           border-radius: 10px;
+           box-shadow: 0 0 5px;
+           padding: 10px;
+}
+  
+.Protein{
+            width: 300px;
+            min-height: 400px;
+            max-height: 400px;
+            background-color: rgb(8, 8, 8);
+            background-image: url(protein.png);
+            background-size: cover;
+           border-radius: 10px;
+           box-shadow: 0 0 5px;
+           padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+<div class="coitainer">
+    
+  <div class="main">
+  
+      <h1 class="heading">A Cup Of Tranquility.</h1>
+      <p class="sub-heading">100% Organic tea Powder</p>
+      <button>shop now</button>
+    </div>
+   
+    <div class="Oats">
+  
+      <h1 class="heading">Pumpikin Cut Oats</h1>
+      <p class="sub-heading">A Good source of carbs and fiber</p>
+      <button>shop now</button>
+    </div>
+
+    <div class="Protein">
+  
+      <h1 class="heading">Protein Food</h1>
+      <p class="sub-heading">Healthy food</p>
+      <button>shop now</button>
+    </div>
+
+
+</div>
+    
+</body>
+</html>
